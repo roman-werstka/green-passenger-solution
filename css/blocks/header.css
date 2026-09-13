@@ -1,0 +1,98 @@
+.header {
+  padding: 15px 0 0;
+  border-top: 15px solid #52A345;
+}
+
+.header__top {
+  display: grid;
+  grid-template-columns: 1fr 386px 1fr;
+  margin-bottom: 41px;
+  gap: 20px;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.header__phone {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border: 1px solid #475009;
+  border-radius: 60px;
+  gap: 4px;
+}
+
+.header__phone-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.header__callback {
+  padding: 0;
+  border: none;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: .06em;
+  background-color: transparent;
+  color: #475009;
+  text-decoration: underline;
+}
+
+.header__users {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+.header__user-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  gap: 15px;
+}
+
+.header__user-link {
+  display: flex;
+  align-items: center;
+}
+
+.header__user-text {
+  margin: 0 0 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.header__user-count {
+  border-radius: 50%;
+  height: 17px;
+  width: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 10px;
+  background-color: #52A345;
+  color: #fff;
+}
+
+.header__burger {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
