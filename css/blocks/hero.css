@@ -1,0 +1,42 @@
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 105px 0;
+  min-height: calc(100vh - 187px);
+  background-color: rgba(222, 236, 221, 0.8);
+}
+
+.hero__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 640px;
+  gap: 55px;
+}
+
+.hero__text {
+  margin: 0 0 40px 0;
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  color: #475009;
+}
+
+.hero__slogan {
+  margin: 0 0 50px 0;
+  font-size: 30px;
+  line-height: 34px;
+  color: #475009;
+}
+
+.hero__gallery-list {
+  display: grid;
+  grid-template-columns: 305px 300px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  gap: 50px 35px;
+}
+
+.hero__gallery-item--size-xl {
+  grid-row: span 2;
+}
