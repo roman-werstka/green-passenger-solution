@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   align-items: center;
+  margin-bottom: 60px;
   padding: 105px 0;
   min-height: calc(100vh - 187px);
   background-color: rgba(222, 236, 221, 0.8);
