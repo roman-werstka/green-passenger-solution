@@ -10,6 +10,7 @@
 .hero__wrapper {
   display: grid;
   grid-template-columns: 1fr 640px;
+  align-items: center;
   gap: 55px;
 }
 

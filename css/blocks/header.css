@@ -6,7 +6,7 @@
 .header__top {
   display: grid;
   grid-template-columns: 1fr 386px 1fr;
-  margin-bottom: 41px;
+  margin-bottom: 37px;
   gap: 20px;
 }
 
